@@ -24,6 +24,8 @@ public:
 	int getRecordNum()const;
 	string getUnits()const;
 
+	ListNode *& getNext();
+
 	// setters
 	void setEmail(const string& newEmail);
 	void setID(const int& newID);
@@ -32,6 +34,8 @@ public:
 	void setProgram(const string& newProgram);
 	void setRecordNum(const int& newRecordNum);
 	void setUnits(const string& newUnits);
+
+	void setNext(ListNode *& newNext);
 
 private:
 	ListNode *mpNext;

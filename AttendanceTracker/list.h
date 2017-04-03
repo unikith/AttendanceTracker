@@ -6,8 +6,22 @@
 class List
 {
 public:
-private:
+	// constructor and destructor
+	List();
+	~List();
 
+	// list functions
+	bool insertAtFront(ListNode *& newNode);
+	void deleteList();
+	bool isEmpty();
+
+	void setHead(ListNode *& newHead);
+	ListNode *& getHead();
+
+private:
+	ListNode * mpHead;
+
+	void deleteList(ListNode *& subList);
 };
 
 

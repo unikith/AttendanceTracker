@@ -51,6 +51,11 @@ string ListNode::getUnits()const
 	return this->mUnits;
 }
 
+ListNode *& ListNode::getNext()
+{
+	return this->mpNext;
+}
+
 // setters
 void ListNode::setEmail(const string& newEmail)
 {
@@ -99,4 +104,9 @@ void ListNode::setRecordNum(const int& newRecordNum)
 void ListNode::setUnits(const string& newUnits)
 {
 	this->mUnits = newUnits;
+}
+
+void ListNode::setNext(ListNode *& newNext)
+{
+	this->mpNext = newNext;
 }
