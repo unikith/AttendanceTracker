@@ -152,7 +152,11 @@
     <ClCompile Include="appWrapper.cpp" />
     <ClCompile Include="list.cpp" />
     <ClCompile Include="listNode.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="mainMenu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="classList.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

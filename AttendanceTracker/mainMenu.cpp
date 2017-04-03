@@ -32,5 +32,6 @@ void MainMenu::getInputFromUser()
 	do
 	{
 		cin >> this->mMenuInput;
+		cout << endl;
 	} while (this->mMenuInput > 7 || this->mMenuInput < 1);
 }

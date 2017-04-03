@@ -23,7 +23,7 @@ string ListNode::getEmail()const
 
 int ListNode::getID()const
 {
-	this->mIDNum;
+	return this->mIDNum;
 }
 
 string ListNode::getLevel()const
