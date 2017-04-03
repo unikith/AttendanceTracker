@@ -1,6 +1,7 @@
 #include "mainMenu.h"
 /// Member Functions
 /// Public Functions
+// Menu Functions
 void MainMenu::runMenu()
 {
 	this->printMenu();

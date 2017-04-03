@@ -10,12 +10,13 @@ using std::endl;
 class MainMenu
 {
 public:
+	// Menu Functions
 	void runMenu();
-
 	int accessInput() const;
 private:
 	int mMenuInput;
 
+	// Menu Helpers
 	void printMenu();
 	void getInputFromUser();
 };
