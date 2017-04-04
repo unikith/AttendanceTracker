@@ -42,3 +42,16 @@ void AppWrapper::enactMenuChoice()
 		break;
 	}
 }
+
+// Functions that control major tasks
+void AppWrapper::importCourseList()
+{
+
+}
+
+void AppWrapper::loadMasterList();
+void AppWrapper::saveMasterList();
+void AppWrapper::markAbsences();
+void AppWrapper::editAbsences();
+void AppWrapper::generateReport();
+void AppWrapper::exit();

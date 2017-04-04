@@ -21,5 +21,14 @@ private:
 	fstream MasterListFile;
 
 	void enactMenuChoice();
+
+	// Functions that control major tasks
+	void importCourseList();
+	void loadMasterList();
+	void saveMasterList();
+	void markAbsences();
+	void editAbsences();
+	void generateReport();
+	void exit();
 };
 #endif // !APPWRAPPER_H
